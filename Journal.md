@@ -81,15 +81,18 @@ http://passeurdesciences.blog.lemonde.fr/2012/06/13/les-plantes-entendent-elles/
 https://gargantua.polytechnique.fr/siatel-web/linkto/?objectId=DOCF0021000001CC000000000000110D00000000
 
 09/11/2016
+
 Louis and I pursue our researches and put together our project proposal, although the project seems completely foolish. Several weeks have gone by and we need to get back into the project and find a concrete path to follow. We are still thinking about a piezo sensor. The question of whether or not it would acually be sensitive enough to capture something remains completely open, even more so that internal vibratory plant production seems elusive, limited to certain plants at specific moments such as drought stress.
 Our proposition is here : https://drive.google.com/open?id=1phfCsEOTJLYcFH4XENyVGwOY-YmRugIKG3VnI3-fpYc
 
 12/11/2016-15/11/2016
+
 Saturday and Sunday devoted to research. We still have no idea how this can all come together, and we need to buy parts. The online research gives few clus as to how to actually make something, some kind of circuitry which would actually work. I finally run acroos a project, "Pulsum Plantae", that seems to be very close to what we are looking for, where the artist pursues her idea of plants as forms of bio-sensors, responding to touch, sound, and light. Even moss generates a signal. Their GitHub leaves open many questions. Bribes of ideas, but not enough. I conclude that using an ECG sensor is maybe the trick.
 Monday and Tuesday shopping, first to St. Quentin radio (basic parts) and then to HackSpark for the ECG Sensor.
 Time passed: 12 hours
 
 16/11/2016
+
 Today is the day in class to test our ECG Biosensors. We downloaded the code used with the kit sensor (Arduino and Processing) and plugged everything together. Louis' body served as a baseline ECG measure. It works, but the signal is very noisy. Louis modifies the arduino code to both regulate sampling intervals in order to smooth the signal and at the same time map the signal to predefined tones. I wonder if some kind of low-pass filter (capacitor) could be designed, but this is for later.
 We want to have an audio output. I put together a simple amplifier circuit based on an LM386N IC (this circuit needs to be improved) and a small 8W loudspeaker.
 Everything works thus far.
@@ -100,6 +103,7 @@ Time passed : 8 hours
 
 
 19/11/2016
+
 It occurred to me today that there was something askew using the ECG Biosensors. The ECG uses three cables, but on the Pulsum Plantae board there are only two inputs. And, there is also the inscription on the board, "Galvanico".
 More research. In fact, the notion of "biosensor" covers a variety of different methods to capture small electrical signals from biological materials : ECG; EMG, EEG, GSR ...
 GSR, or Galvanic Skin Reaction, measures skin conductivity : how much the skin conducts (conductivity) or doesn't (resistance). The two-probe approach and the card inscription "galvanico", suggests this as a method for listening to plants.
